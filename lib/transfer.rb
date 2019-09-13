@@ -8,10 +8,5 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @status = 'pending'
-    #if transfer < 50
-    #  @transfer = 50
-    #else
-    #  @transfer = transfer
-    #end
   end
 end
