@@ -5,7 +5,7 @@ class Transfer
 
   def initialize(sender="", receiver="", transfer)
     @transfer = transfer
-    @amount += transfer
+    @amount += 50
     @sender = sender
     @receiver = receiver
     @status = 'pending'
